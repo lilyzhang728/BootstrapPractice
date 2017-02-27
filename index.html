@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatitle" content="IE=edge"><!-- IE8/9及以后的版本都会以最高版本IE来渲染页面 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"><!-- 初始化移动浏览 -->
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style/index2.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">magic world</span> 
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="images/private/private-logo.jpg" alt="海贼王logo" id="private-logo"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+		        <li class="active"><a href="#">综述<span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">简述</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">人物<span class="caret"></span></a>
+		          <ul class="dropdown-menu" id="navBar">
+		            <li><a href="#LUFEI">路飞</a></li>
+                <li><a href="#SUOLONG">索隆</a></li>
+                <li><a href="#SHANZHI">山治</a></li>
+                <li><a href="#NAMEI">娜美</a></li>
+                <li><a href="#LUOBIN">罗宾</a></li>
+                <li><a href="#QIAOBA">乔巴</a></li>
+                <li><a href="#WUSUOPU">乌索普</a></li>
+                <li><a href="#FULANQI">弗兰奇</a></li>
+                <li><a href="#BULUKE">布鲁克</a></li>
+		            
+		          </ul>
+		        </li>
+		        <li><a href="#" data-toggle="modal" data-target="#myModal">关于</a></li>
+		     </ul>
+		</div>
+	</div>
+</nav>
+
+<!-- 轮播图片-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/private/family-one.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>海贼王</h1>
+        <p>ONE PIECE</p>
+        <a href="http://www.iqiyi.com/a_19rrhb3xvl.html?vfm=2008_aldbd" class="btn btn-primary btn-lg">点击观看</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/private/family-two.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>海贼王</h1>
+        <p>ONE PIECE</p>
+        <a href="http://www.iqiyi.com/a_19rrhb3xvl.html?vfm=2008_aldbd" class="btn btn-primary btn-lg">点击观看</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/private/family-three.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>海贼王</h1>
+        <p>ONE PIECE</p>
+        <a href="http://www.iqiyi.com/a_19rrhb3xvl.html?vfm=2008_aldbd" class="btn btn-primary btn-lg">点击观看</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/private/family-four.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>海贼王</h1>
+        <p>ONE PIECE</p>
+        <a href="http://www.iqiyi.com/a_19rrhb3xvl.html?vfm=2008_aldbd" class="btn btn-primary btn-lg">点击观看</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/private/family-five.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>海贼王</h1>
+        <p>ONE PIECE</p>
+        <a href="http://www.iqiyi.com/a_19rrhb3xvl.html?vfm=2008_aldbd" class="btn btn-primary btn-lg">点击观看</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- 栅格系统 -->
+<div class="container">
+	<div class="row">
+	  <div class="col-md-4">
+	  	<img src="images/private/lufei-cartoon-small.jpg" alt="">
+	  	<h1>路飞</h1>
+	  	<a class="btn btn-default" href="#" role="button">立即观看</a>
+	  </div>
+	  <div class="col-md-4">
+  		<img src="images/private/suolong-cartoon-small.jpeg" alt="火狐浏览器">
+    	<h1>索隆</h1>
+    	<a href="#" class="btn btn-default">立即观看</a>
+	  </div>
+	  <div class="col-md-4">
+	  	<img src="images/private/shanzhi-cartoon-small.jpg" alt="safari浏览器">
+	    <h1>山治</h1>
+	   	<a href="#" class="btn btn-default">立即观看</a>
+	  </div>
+	  <div class=" col-md-4">
+	    	<img src="images/private/namei-cartoon-small.jpeg" alt="safari浏览器">
+	    	<h1>娜美</h1>
+	    	<a href="#" class="btn btn-default">立即观看</a>
+	    </div>
+	    <div class=" col-md-4">
+	    	<img src="images/private/luobin-cartoon-small.jpg" alt="safari浏览器">
+	    	<h1>罗宾</h1>
+	    	<a href="#" class="btn btn-default">立即观看</a>
+	    </div>
+	    <div class=" col-md-4">
+	    	<img src="images/private/qiaoba-cartoon-small.jpg" alt="safari浏览器">
+	    	<h1>乔巴</h1>
+	    	<a href="#" class="btn btn-default">立即观看</a>
+	    </div>
+	    <div class=" col-md-4">
+	    	<img src="images/private/wusuopu-cartoon-small.jpeg" alt="safari浏览器">
+	    	<h1>乌索普</h1>
+	    	<a href="#" class="btn btn-default">立即观看</a>
+	    </div>
+	    <div class=" col-md-4">
+	    	<img src="images/private/fulanqi-cartoon-small.jpg" alt="safari浏览器">
+	    	<h1>弗兰奇</h1>
+	    	<a href="#" class="btn btn-default">立即观看</a>
+	    </div>
+	    <div class=" col-md-4">
+	    	<img src="images/private/buluke-cartoon-small.jpg" alt="safari浏览器">
+	    	<h1>布鲁克</h1>
+	    	<a href="#" class="btn btn-default">立即观看</a>
+	    </div>
+	</div>
+</div>
+
+<hr id="divider">
+<!-- 标签页 -->
+
+<div id="biaoqianye">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#LUFEI" aria-controls="LUFEI" role="tab" data-toggle="tab">路飞</a></li>
+    <li role="presentation"><a href="#SUOLONG" aria-controls="SUOLONG" role="tab" data-toggle="tab">索隆</a></li>
+    <li role="presentation"><a href="#SHANZHI" aria-controls="SHANZHI" role="tab" data-toggle="tab">SHANZHI</a></li>
+    <li role="presentation"><a href="#NAMEI" aria-controls="NAMEI" role="tab" data-toggle="tab">NAMEI</a></li>
+    <li role="presentation"><a href="#LUOBIN" aria-controls="LUOBIN" role="tab" data-toggle="tab">罗宾</a></li>
+	  <li role="presentation"><a href="#QIAOBA" aria-controls="QIAOBA" role="tab" data-toggle="tab">乔巴</a></li>
+	  <li role="presentation"><a href="#WUSUOPU" aria-controls="WUSUOPU" role="tab" data-toggle="tab">乌索普</a></li>
+	  <li role="presentation"><a href="#FULANQI" aria-controls="FULANQI" role="tab" data-toggle="tab">弗兰奇</a></li>
+	  <li role="presentation"><a href="#BULUKE" aria-controls="BULUKE" role="tab" data-toggle="tab">布鲁克 	</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" id="tab-content">
+   	<div role="tabpanel" class="tab-pane active" id="LUFEI">
+      	<div class="col-md-7">
+      		<h1>蒙奇·D·路飞 <small>找到ONEPIECE，梦想成为海贼王。</small></h1>
+      		<p>在东海的风车村长大，很崇拜香克斯，一心想成为像他们那样的海贼。爱打抱不平的路飞误食了香克斯抢来的橡胶果实，从此再也不能游泳，但却拥有了奇特的果实力量！在一次溺水当中，差点被近海之王吃掉，被香克斯所救，香克斯失去了一条左臂。香克斯离开渔村准备再次出海前，他把自己的草帽戴在了路飞头上，并说：将来你一定要还给我，当你成为出色海贼的时候。从此路飞的目标是成为海贼王！那顶草帽，成了路飞最珍爱的宝物。后来被爷爷带到山贼达旦处抚养，结识了艾斯与萨波，并结为兄弟。</p>
+      	</div>
+      	<div class="col-md-5">
+      		<img src="images/private/lufei-cartoon.jpg" alt="路飞">
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="SUOLONG">
+      	<div class="col-md-5 " id='margin-left'>
+      		<img src="images/private/suolong-cartoon.jpeg" alt="索隆">
+      	</div>
+      	<div class="col-md-7">
+      		<h1>索隆 <small>世界第一大剑豪</small></h1>
+      		<p>索隆小时候去道场，输给了道场师傅的女儿古伊娜，因此古伊娜成为了他的剑术目标。两人约定：我们中一定要有一人成为天下第一剑客！然而古伊娜因为不小心从楼梯上摔下而死去，让索隆感到了生命的脆弱，并且发誓要顽强的活下去，并为了实现两人的约定，带着古伊娜的剑，从此踏上了成为天下第一剑豪之路。</p>
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="SHANZHI">
+      	<div class="col-md-7">
+      		<h1>山治 <small>寻找传说中的奇迹之海</small></h1>
+      		<p>草帽海贼团厨师，金发，有着卷曲眉毛，永远遮住半边脸的家伙，香烟不离口，最爱女人，很花心但很有风度，海贼中的绅士。小时候跟随大海贼红脚哲普学习厨艺。踢技以快准狠被海军称之为“黑足”，但从不愿意伤害任何的女性，哪怕是敌人。在经过司法岛一战后也成了悬赏对象，首次悬赏就有7700万之高。梦想是找到传说之海All Blue而跟随路飞一同进入了伟大航路。是文斯莫克家族的第三子。</p>
+      	</div>
+      	<div class="col-md-5">
+      		<img src="images/private/shanzhi-cartoon.jpg" alt="山治">
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="NAMEI">
+      	<div class="col-md-5" id="margin-left">
+      		<img src="images/private/namei-cartoon.jpeg" alt="娜美">
+      	</div>
+      	<div class="col-md-7">
+      		<h1>娜美 <small>绘制出自己的世界地图</small></h1>
+      		<p>头脑聪明又机灵，精通气象学和航海术，擅长偷术，能用身体感知天气，完美指示航路，是个能精确画出航海图的天才航海士。本质上是个细心、善良、重视感情、嫉恶如仇、偶尔有些温柔的能干的女性。最喜欢钱和橘子，梦想是要画出全世界的地图。</p>
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="LUOBIN">
+      	<div class="col-md-7" >
+      		<h1>妮可·罗宾 <small>寻找真正的“历史正文”</small></h1>
+      		<p>草帽海贼团的考古学家，出生在西海的考古学之岛“奥哈拉”，年仅8岁就被悬赏千万的奥哈拉幸存者。是拥有“花花果实”的恶魔果实能力者，能让身体的任何部位像开花一样绽放在视线范围内的任何有形体的事物上并作出攻击或其他用途。目标是找到真正的历史正文，绝不饶恕践踏历史文物的人。</p>
+      	</div>
+      	<div class="col-md-5" id='margin-left-ie'>
+      		<img src="images/private/luobin-cartoon.jpg" alt="罗宾">
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="QIAOBA">
+      	<div class="col-md-5" id="margin-left">
+      		<img src="images/private/qiaoba-cartoon.jpg" alt="乔巴">
+      	</div>
+      	<div class="col-md-7">
+      		<h1>托尼托尼·乔巴 <small>成为万能药</small></h1>
+      		<p>托尼托尼·乔巴是草帽海贼团的第五位伙伴，职位是船医。原为磁鼓岛库蕾哈医生最宠爱的驯鹿兼医疗助手。乔巴的恩人是“庸医”希鲁鲁克医生，他身为野生驯鹿时本来没有名字，“乔巴”也是由希鲁鲁克给他命名的，意思是他有一对连树木都可以轻松砍倒的角。</p>
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="WUSUOPU">
+      	<div class="col-md-7" >
+      		<h1>乌索普 <small>成为真正勇敢的海上战士。</small></h1>
+      		<p>草帽海贼团狙击手，特征为头戴狙击防风镜、浅啡色头巾，长鼻子。小时候是出名的吹牛大王，和村里的几个孩子组成“乌索普海贼团”，自称乌索普船长。发现克洛船长的阴谋后，立志要保护村里的人，和路飞并肩作战。梦想是要成为勇敢的海上战士。</p>
+      	</div>
+      	<div class="col-md-5" id='margin-left-ie'>
+      		<img src="images/private/wusuopu-cartoon.jpeg" alt="乌索普">
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="FULANQI">
+      	<div class="col-md-5" id="margin-left">
+      		<img src="images/private/fulanqi-cartoon.jpg" alt="弗兰奇">
+      	</div>
+      	<div class="col-md-7">
+      		<h1>弗兰奇 <small>制造出梦想之船</small></h1>
+      		<p>草帽海贼团船匠，性格豪放，喜欢唱歌，跳奇怪的舞，下身喜欢只穿一条短裤。身为改造人的弗兰奇，身体藏着各种兵器。弗兰奇在被cp9抓入司法岛的过程中被路飞他们救罗宾的精神所感动，义无返顾的站在路飞他们一边。司法岛事件结束后，弗兰奇用宝树亚当的材料建造了一艘梦想之船，取名“桑尼号（即万里阳光号）”，并赠送给草帽海贼团。后来在路飞的邀请下进入了草帽海贼团。</p>
+      	</div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="BULUKE">
+      	<div class="col-md-7" >
+      		<h1>布鲁克 <small>与伙伴鲸鱼“拉布”重逢</small></h1>
+      		<p>现为草帽海贼团音乐家。原本是某国护卫队团长，后加入伦巴海贼团，50年前跟鲸鱼拉布约定在“双子峡”重逢。后来在魔幻三角地带遇到敌人并遭遇毒手，因黄泉果实的能力，灵魂走出黄泉并准备回身体时，在魔幻三角地带迷路一年，找到的身体已变成骷髅，但爆炸头仍然存在，自此他只能以骷髅状态生存。幽灵岛战役结束后，从路飞口中得知伙伴拉布现在平安无事的消息，为了履行和拉布的约定，才正式加入草帽海贼团。</p>
+      	</div>
+      	<div class="col-md-5" id='margin-left-ie'>
+      		<img src="images/private/buluke-cartoon.jpg" alt="布鲁克">
+      	</div>
+      </div>
+  </div>
+</div>
+
+<footer>
+  <div class="pull-left">&copy; LilyZhang</div>
+  <div class="pull-right"><a href="#top">回到顶部</a></div>
+</footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">关于</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

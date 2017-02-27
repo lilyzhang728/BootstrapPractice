@@ -1,0 +1,83 @@
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#private-logo{
+	margin-top: -16px;
+	margin-left: -2px;
+}
+div.item{
+	height: 500px;
+}
+div.item img{
+	height: 500px;
+	width: 100%;
+	display: inline-block;
+}
+div.carousel-caption p{
+	height: 20px;
+	line-height: 1.8;
+	font-size: 20px;
+}
+div.carousel-caption a{
+	margin: 50px 0 25px 0;
+}
+div#carousel-example-generic{
+	margin-bottom:50px;
+}
+div.col-md-4{
+	margin-bottom:20px;
+}
+div.container{
+	text-align:center;
+}
+hr#divider{
+	margin:40px 0;
+	padding: 0 105px;
+}
+
+div#biaoqianye{	
+	padding: 0 105px;
+}
+div#margin-left{
+	margin-left:-25px;
+	margin-right:24px;
+	margin-bottom:-20px;
+	padding-top:20px;
+}
+div#margin-left-ie{
+	margin-left:-25px;
+}
+div.tab-pane{
+	margin-bottom:20px;
+}
+div.col-md-7{
+	padding-top:100px;
+	margin:0 auto;
+}
+div.col-md-7 h1{
+	font-size:50px;
+	color:#2A6496;
+}
+div.col-md-7 small{
+	font-size:24px;
+	color:#999;
+}
+div#tab-content{
+	overflow:hidden;
+	margin-bottom:10px;
+}
+div.col-md-7 p{
+	font-size:20px;
+	color:#999;
+}
+div#Firefox{
+	overflow:hidden;
+}
+div#Opera{
+	overflow:hidden;
+}
+footer{
+	clear:both;
+	padding: 10px 100px;
+}
